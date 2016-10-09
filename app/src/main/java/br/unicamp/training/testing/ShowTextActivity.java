@@ -18,7 +18,9 @@ public class ShowTextActivity extends Activity {
         Intent intent = getIntent();
         String message = intent.getStringExtra(KEY_EXTRA_MESSAGE);
 
-        ((TextView) findViewById(R.id.show_text_view)).setText(message);
+        if (message != null && !message.equals("")) {
+            ((TextView) findViewById(R.id.show_text_view)).setText(message);
+        }
     }
 
     static protected Intent newStartIntent(Context context, String message) {
