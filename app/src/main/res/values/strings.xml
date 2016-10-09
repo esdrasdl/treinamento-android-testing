@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">My App</string>
+    <string name="app_name">Espresso</string>
+    <string name="hello">Olá Espresso!</string>
+    <string name="change_text">Trocar texto</string>
+    <string name="type_something">Digite algo …</string>
+    <string name="open_activity_and_change_text">Abrir uma nova tela e trocar o texto</string>
 </resources>
